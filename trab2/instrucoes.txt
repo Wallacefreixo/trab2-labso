@@ -1,5 +1,5 @@
 Instruções para o Trabalho
--------------------------
+--------------------------
 
 1 - criar um repositório no seu github com o nome trab2-labso
 2 - clonar este repositório na sua máquina local
