@@ -57,14 +57,6 @@ echo ""
              echo ""
              ping -c 1 $ip
              echo ""
-             if [ $? -eq 0 ]
-               then
-                echo " ip/url esta no ar "
-                echo ""
-               else
-                echo "ip/url fora do ar "
-                echo ""
-              fi
         else
          if [ $opcao == 0 ]
           then
