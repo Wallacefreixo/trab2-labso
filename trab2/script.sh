@@ -45,7 +45,7 @@ echo ""
         else
          if [ $opcao == 0 ]
           then
-          exit 0;
+          exit 0
         fi
       fi
     fi
