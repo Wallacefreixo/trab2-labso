@@ -26,15 +26,24 @@ echo ""
                echo "$arq : esse arquivo nao existe"
                echo ""
             fi
-        else
+         else
          if [ $opcao == 3 ]
           then
-             echo "Digite o ip ou url a ser testado: "
+             echo "Digite o ip/url a ser testado: "
              read ip
              echo ""
              ping -c 1 $ip
-             echo ""
-        else
+             if [ $? -eq 0 ]
+                 then
+                     echo ""
+                     echo "ip/url no ar"
+                     echo ""
+             else
+                 echo ""
+                 echo "ip/url fora do ar"
+                 echo ""
+             fi
+         else
          if [ $opcao == 0 ]
           then
           exit 0
